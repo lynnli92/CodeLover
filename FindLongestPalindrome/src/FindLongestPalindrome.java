@@ -9,9 +9,13 @@ public class FindLongestPalindrome {
         Scanner cin = new Scanner(System.in);
         System.out.println("Please enter one string: ");
         String s = cin.nextLine();
-        //String out = findLongestPalin(s);
-        String out = improveFind(s);
+
+        String out = findLongestPalin(s);
+
+        String result = improveFind(s);
         System.out.println(out);
+        System.out.println();;
+        System.out.println(result);
     }
 
     /**
