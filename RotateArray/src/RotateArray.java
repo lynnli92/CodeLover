@@ -4,7 +4,7 @@
 public class RotateArray {
     public static void main(String[]args){
         int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        rotate(array,5);
+        rotate(array,17);
     }
 
     /**
@@ -14,6 +14,7 @@ public class RotateArray {
      */
     public static void rotate(int[] nums, int k) {
         int length = nums.length;
+        k = k % length;
         int[]b = new int[length];
         for(int i = 0; i < length; i++){
             b[i] = nums[i];
