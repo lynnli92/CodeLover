@@ -13,19 +13,6 @@ public class UniqCharInString {
         System.out.println();
         System.out.println(isStringUnique(str));
 
-        /**
-         * digits add means add each digit of an number;
-         */
-        /**
-         System.out.println("Please enter an positive number: ");
-         long num = cin.nextLong();
-         if(num > 0){
-         System.out.println(digitsAdd(num));
-         }else{
-         System.out.println("ERROR");
-         }
-         */
-
     }
 
     /**
