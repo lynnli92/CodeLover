@@ -62,19 +62,6 @@ public class AddTwoNumbers {
             sum.add(carry);
         }
 
-        /**
-         int size1 = list1.size();
-         int size2 = list2.size();
-         int x = size1 < size2 ? size1 : size2;
-         for(int i = 0; i < x; i++){
-         int digitSum = list1.poll() + list2.poll() + carry;
-         carry = digitSum / 10;
-         digitSum = digitSum % 10;
-         sum.add(digitSum);
-         }
-         sum.add(carry);
-
-         */
         return sum;
     }
 
