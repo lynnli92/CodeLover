@@ -1,2 +1,2 @@
-# LeetCode
-Here is the solutions of questions in leetcode
+# 
+Here are some solutions of questions of leetcode and some other interesting methods
